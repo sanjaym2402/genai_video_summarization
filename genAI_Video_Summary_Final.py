@@ -77,7 +77,7 @@ def turn_into_story(summary):
     prompt = f"Turn the following video summary into a narrative story with characters, setting, conflict, and resolution: \n\n{summary}"
     return model.invoke(prompt)
 
-st.title("Hamsa - YouTube/Upload Video Summarizer Using Groq LLM")
+st.title("Sanjay - YouTube/Upload Video Summarizer Using Groq LLM")
 st.image("ipl.png")
 
 youtube_url = st.text_input("Paste a YouTube video URL:", placeholder="https://www.youtube.com/watch?v=example")
